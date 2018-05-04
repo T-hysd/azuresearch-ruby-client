@@ -2,6 +2,8 @@ module AzureSearch
 
   # Represents an Index field definition.
   class IndexField
+    include Utils
+
     # Valid EDM (Entity Data Model) data types.
     VALID_EDM_TYPES = [
       "Edm.String",

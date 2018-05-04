@@ -1,4 +1,4 @@
-module AzureSearch
+module AzureSearch module Utils
 
   # Checks if the supplied value is a Boolean.
   #
@@ -36,4 +36,4 @@ module AzureSearch
     }.join('&')
   end
 
-end
+end; end
