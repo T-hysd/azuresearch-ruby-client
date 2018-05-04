@@ -2,7 +2,7 @@ require 'azure_search/utils'
 
 describe AzureSearch do
   let(:dummy_class) {
-    Class.new { extend AzureSearch }
+    Class.new { extend AzureSearch::Utils }
   }
 
   it 'checks if supplied value is a boolean' do

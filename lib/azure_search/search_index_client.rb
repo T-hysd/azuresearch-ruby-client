@@ -12,7 +12,8 @@ module AzureSearch
 
   # Client to perform requests to an Azure Search service.
   class SearchIndexClient
-    include AzureSearch::Errors
+    include Errors
+    include Utils
 
     # @return [Symbol] The search service name.
     attr_accessor :service_name

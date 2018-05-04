@@ -4,6 +4,8 @@ module AzureSearch
 
   # Represents search options that will be sent along with a search request.
   class IndexSearchOptions
+    include Utils
+
     SPECIAL_PARAMS = %w(count filter orderby select top skip).freeze
 
     # Specifies whether to fetch the total count of results.

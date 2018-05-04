@@ -1,3 +1,5 @@
+forked from https://github.com/amrfaissal/azuresearch-ruby-client :sparkles:
+
 # Ruby Client for Microsoft Azure Search
 
 [![Build Status](https://travis-ci.org/amrfaissal/azuresearch-ruby-client.svg?branch=master)](https://travis-ci.org/amrfaissal/azuresearch-ruby-client)
